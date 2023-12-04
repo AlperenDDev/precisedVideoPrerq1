@@ -1,0 +1,23 @@
+RankHandler rh = new RankHandler();
+string p1 = rh.rankPrice(1);
+system.debug('1 => '+ p1);
+string p2 = rh.rankPrice(2);
+system.debug('2 => '+ p2);
+string p3 = rh.rankPrice(3);
+system.debug('3 => '+ p3);
+string p5 = rh.rankPrice(5);
+system.debug('5 => '+ p5);
+string p13 = rh.rankPrice(13);
+system.debug('13 => '+ p13);
+
+RankHandler rh2 = new RankHandler();
+string ph1 = rh2.rankPrizeSwitch(1);
+system.debug('1 => '+ ph1);
+string ph2 = rh2.rankPrizeSwitch(2);
+system.debug('2 => '+ ph2);
+string ph3 = rh2.rankPrizeSwitch(3);
+system.debug('3 => '+ ph3);
+string ph5 = rh2.rankPrizeSwitch(5);
+system.debug('5 => '+ ph5);
+string ph13 = rh2.rankPrizeSwitch(13);
+system.debug('13 => '+ ph13);

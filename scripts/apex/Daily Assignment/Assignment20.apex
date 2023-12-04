@@ -1,0 +1,2 @@
+SoqlParentChildAssignment.printAccountContacts();
+SoqlParentChildAssignment.printContactAccounts();
