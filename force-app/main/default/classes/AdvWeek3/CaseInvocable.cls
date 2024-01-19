@@ -14,11 +14,11 @@ public with sharing class CaseInvocable {
             );
             msg.setTargetObjectId(req.contactId);
             msg.setSaveAsActivity(true);
+            msgs.add(msg);
         }
 
         try {
-            Messaging.sendEmail(req.contactId);
-            msg.setSaveAsActivity(true);
+            Messaging.sendEmail(msgs);
         } catch (Exception ex) {
             system.debug(ex.getMessage());
         }
