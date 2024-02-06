@@ -12,4 +12,4 @@ trigger SalesforceProjectTrigger on Salesforce_Project__c (before insert, after 
     if (Trigger.isAfter && Trigger.isUpdate) {
         SPTriggerHandler.spCompleted(Trigger.New, Trigger.Old, Trigger.NewMap, Trigger.OldMap);
     }
-} 
+}

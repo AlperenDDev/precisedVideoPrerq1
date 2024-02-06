@@ -10,5 +10,5 @@ public class MapDemo {
         system.debug(map1);
     }
 
-     
+    
 }

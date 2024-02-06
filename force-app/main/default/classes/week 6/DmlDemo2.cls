@@ -34,7 +34,7 @@ public class DmlDemo2 {
     }
 
     public static void dmlBulkUpdateRight2() {
-        List<Account> allAccounts = [select id, name from account];
+        List<Account> allAccounts = [select id, name, active__c from account];
         list<Account> updateRecords = new List<Account>();
 
         for (Account eachAccount : allAccounts) {

@@ -14,6 +14,4 @@ public class SoqlDemo2 {
             system.debug('project name is ' + eachSP.project_name__c + ', its status is ' + eachSP.status__c);
         }
     }
-
-     
 }

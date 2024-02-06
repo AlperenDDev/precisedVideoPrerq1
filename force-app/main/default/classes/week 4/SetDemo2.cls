@@ -25,6 +25,4 @@ public class SetDemo2 {
             system.debug(i + 5);
         }
     }
-
-    
 }

@@ -33,6 +33,4 @@ public class SoqlDemo4 {
             system.debug('employee ' + eachEmp);
         }
      }
-
-     
 }

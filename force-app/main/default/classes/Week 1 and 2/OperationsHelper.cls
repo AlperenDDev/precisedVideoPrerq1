@@ -77,4 +77,4 @@ the operation” and return null otherwise return the calculated value.
         return lowest;
     }
 
-} 
+}

@@ -1,9 +1,10 @@
-trigger AccountTrigger2 on Account (before delete, after delete) {
-
+trigger AccountTrigger2 on Account (before update, after update) {
     if(trigger.isBefore){
-        system.debug('before delete account trigger trigger.new: ' + trigger.new);
+        system.debug('before update acount trigger called ');
     }
-    if(trigger.isAfter){
-        system.debug('after delete account trigger trigger.new: ' + trigger.new);
+   
+    if(trigger.isBefore){
+        system.debug('before update acount trigger called ');
     }
+   
 }

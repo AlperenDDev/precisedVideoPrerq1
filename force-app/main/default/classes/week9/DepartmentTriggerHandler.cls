@@ -11,4 +11,4 @@ public class DepartmentTriggerHandler {
         }
         insert newEmployees;
     }
-} 
+}

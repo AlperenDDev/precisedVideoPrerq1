@@ -2,7 +2,7 @@ public class SoqlParentChildAssignment {
     public static void printContactAccounts() {
         List<Contact> listCont = [select id, name, account.id, account.name from Contact];
 
-         for(contact eachCont : listCont){
+    for(contact eachCont : listCont){
         system.debug('contact name ' + eachCont.name + 'contact account id is ' + eachCont.Account.id + 'its acc name is ' + eachCont.Account.name);
 
         }
