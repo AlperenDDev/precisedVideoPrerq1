@@ -1,9 +1,9 @@
-List<Case> listCase = new List<Case>();
-for (Integer i = 0; i < 205; i++) {
-    Case c = new Case(Subject = 'There is a bug ' + i, Origin ='Web', Status = 'New', Description ='Resolve it.' );
-    listCase.add(c); // Add the Case object to the list
+List<ToDo__c> listToDo = new List<ToDo__c>();
+for (Integer i = 0; i < 8; i++) {
+    ToDo__c c = new ToDo__c(Name = 'Testing Todo ' + i, ToDo_Id__c = i);
+    listToDo.add(c); // Add the Case object to the list
 }
-insert listCase; // Insert the list of cases outside the loop
+insert listToDo; // Insert the list of cases outside the loop
 
 
 
